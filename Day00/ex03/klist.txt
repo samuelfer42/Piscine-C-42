@@ -1,0 +1,5 @@
+redentials cache: API:BF2BDF88-F052-4013-B693-EB59ECD4720C
+        Principal: sfernand@42.FR
+
+		  Issued                Expires             Flags    Principal
+		  Aug 27 15:27:09 2018  Sep  3 15:26:58 2018  FPIA   krbtgt/42.FR@42.FR`
