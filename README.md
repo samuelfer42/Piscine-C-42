@@ -2,8 +2,8 @@
 // Log : sfernand \\
 
 # Jour
-Day 00 -> Succeeded with 75% \n
-Day 01 -> Succeeded with 85%
+Day 00 -> Succeeded with 75%
+#Day 01 -> Succeeded with 85%
 Day 02 -> Succeeded with 50%
 Day 03 -> Succeeded with 90%
 Day 04 -> Succeeded with 75%
