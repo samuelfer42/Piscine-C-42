@@ -1,5 +1,5 @@
 # 42  Piscine Septembre 2018 
-# Log : sfernand #
+/#/ Log : sfernand /#/ 
 
 # Jour
 Day 00 -> Succeeded with 75% 
