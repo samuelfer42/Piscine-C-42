@@ -12,14 +12,23 @@ Day 02 -> Succeeded with 50%
 
 
 Day 03 -> Succeeded with 90%
+
 Day 04 -> Succeeded with 75%
+
 Day 05 -> Succeeded with 60%
+
 Day 06 -> Succeeded with 70%
+
 Day 07 -> Succeeded with 60%
+
 Day 08 -> Succeeded with 100%
+
 Day 09 -> Failed with 19%
+
 Day 10 -> Succeeded with 50%
+
 Day 11 -> Not registered
+
 Day 12 -> Not registered 
 
 # Projet En Groupe
