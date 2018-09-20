@@ -6,7 +6,7 @@
 /*   By: sfernand <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/09/09 14:21:03 by sfernand          #+#    #+#             */
-/*   Updated: 2018/09/09 15:38:52 by sfernand         ###   ########.fr       */
+/*   Updated: 2018/09/10 10:56:14 by sfernand         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ int		main(int argc, char **argv)
 	int	i;
 	int	z;
 
-	i = 0;
+	i = 1;
 	z = 0;
 	while (i < argc)
 	{
