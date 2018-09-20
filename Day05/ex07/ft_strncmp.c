@@ -1,25 +1,32 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_str_is_lowercase.c                              :+:      :+:    :+:   */
+/*   ft_strncmp.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: sfernand <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/09/11 12:48:47 by sfernand          #+#    #+#             */
-/*   Updated: 2018/09/12 20:34:54 by sfernand         ###   ########.fr       */
+/*   Created: 2018/09/10 10:20:46 by sfernand          #+#    #+#             */
+/*   Updated: 2018/09/11 15:21:48 by sfernand         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_str_is_lowercase(char *str)
+int	ft_strncmp(char *s1, char *s2, unsigned int n)
 {
 	unsigned int	i;
 
 	i = 0;
-	while (str[i] != '\0')
+	while (s1[i] != '\0' && s2[i] != '\0' && i < n)
 	{
-		if (str[i] < 'a' || str[i] > 'z')
-			return (0);
-		++i;
+		if (s1[i] != s2[i])
+		{
+			return (s1[i] - s2[i]);
+		}
+		i++;
 	}
-	return (1);
+	if (i < n && ((s1[i] == '\0' && s2[i] != '\0')
+				|| (s2[i] == '\0' && s1[i] != '\0')))
+	{
+		return (s1[i] - s2[i]);
+	}
+	return (0);
 }

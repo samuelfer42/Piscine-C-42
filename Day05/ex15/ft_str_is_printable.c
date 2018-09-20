@@ -6,7 +6,7 @@
 /*   By: sfernand <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/09/11 12:58:38 by sfernand          #+#    #+#             */
-/*   Updated: 2018/09/11 18:51:03 by sfernand         ###   ########.fr       */
+/*   Updated: 2018/09/12 20:35:34 by sfernand         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ int	ft_str_is_printable(char *str)
 	i = 0;
 	while (str[i] != '\0')
 	{
-		if ((str[i] < 32 && str[i] > 126))
+		if ((str[i] < 32 || str[i] > 126))
 			return (0);
 		i++;
 	}
